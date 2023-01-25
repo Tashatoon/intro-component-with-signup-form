@@ -1,5 +1,16 @@
-.heading {
-    float: left;
-    width: 25%;
-   padding: 10%;
+body {
+    background-image: url("/images/bg-intro-desktop.png");
+    background-color: rgb(234, 130, 147);
 }
+
+.heading {
+float:left;
+   width: 40%;
+   padding: 5%;
+   color: white;
+}
+
+.heading h2 {
+    font-size: 32px;
+}
+
