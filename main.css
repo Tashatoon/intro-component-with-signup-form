@@ -1,16 +1,56 @@
 body {
-    background-image: url("/images/bg-intro-desktop.png");
-    background-color: rgb(234, 130, 147);
+  background-image: url("/images/bg-intro-desktop.png");
+  background-color: rgb(234, 130, 147);
 }
 
 .heading {
-float:left;
-   width: 40%;
-   padding: 5%;
-   color: white;
+  width: 40%;
+  padding: 5%;
+  color: white;
 }
 
 .heading h2 {
-    font-size: 32px;
+  font-size: 32px;
 }
 
+* {
+  box-sizing: border-box;
+}
+.container {
+  padding: 5%;
+}
+.container p {
+  display: inline-block;
+}
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+  width: 75%;
+  padding: 15px;
+  margin: 5px 0 10px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type="button"] {
+  float: left;
+  width: 75%;
+  background-color: rgb(49, 167, 63);
+  color: rgb(4, 13, 10);
+  padding: 10px 10px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+}
+.container2 p {
+  float: left;
+}
+
+@media screen and (min-width: 375px) {
+  container {
+    padding: 0%;
+    padding-bottom: 15px;
+    text-align: center;
+  }
+}
