@@ -48,14 +48,25 @@
         <h4>Try it free 7 days then $20/mo. thereafter</h4>
         <form>
           <div class="container1">
-            <label for="fname">First name:</label><br />
-            <input type="text" id="fname" name="fname" /><br />
-            <label for="lname">Last name:</label><br />
-            <input type="text" id="lname" name="lname" /><br />
-            <label for="email"> Email:</label> <br />
-            <input type="email" /><br />
-            <label for="password"> Password:</label><br />
-            <input type="password" /><br />
+            <input
+              type="text"
+              id="fname"
+              name="fname"
+              required
+              placeholder="First Name"
+            /><br />
+
+            <input
+              type="text"
+              id="lname"
+              name="lname"
+              required
+              placeholder="Last Name"
+            /><br />
+
+            <input type="email" required placeholder="Email" /><br />
+
+            <input type="password" required placeholder="Password" /><br />
             <input type="button" value="Claim your free trial" />
             <p>
               <!--Validate name, email, password-->

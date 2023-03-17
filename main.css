@@ -15,10 +15,16 @@ body {
 .form h4 {
   text-align: center;
   padding: 10%;
+  color: white;
   background-color: blueviolet;
   border-radius: 12px;
   box-shadow: 1px 10px #a09c9c;
 }
+.container1 {
+  background-color: white;
+  border-radius: 5px 10px;
+}
+
 * {
   box-sizing: border-box;
 }
