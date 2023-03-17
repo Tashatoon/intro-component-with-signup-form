@@ -4,24 +4,25 @@ body {
 }
 
 .heading {
-  width: 40%;
   padding: 5%;
+  text-align: center;
   color: white;
 }
 
 .heading h2 {
-  font-size: 32px;
+  font-size: 2em;
 }
-
+.form h4 {
+  text-align: center;
+  padding: 10%;
+  background-color: blueviolet;
+  border-radius: 12px;
+  box-shadow: 1px 10px #a09c9c;
+}
 * {
   box-sizing: border-box;
 }
-.container {
-  padding: 5%;
-}
-.container p {
-  display: inline-block;
-}
+
 input[type="text"],
 input[type="password"],
 input[type="email"] {
