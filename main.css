@@ -1,3 +1,7 @@
+* {
+  font-family: "poppins";
+  box-sizing: border-box;
+}
 body {
   background-image: url("/images/bg-intro-desktop.png");
   background-color: rgb(234, 130, 147);
@@ -23,15 +27,12 @@ body {
 }
 .form p {
   font-size: 12px;
+  padding: 5%;
 }
 .container1 {
+  padding-top: 5%;
   background-color: white;
   border-radius: 5px 10px;
-}
-
-* {
-  font-family: poppins;
-  box-sizing: border-box;
 }
 
 input[type="text"],
@@ -50,7 +51,6 @@ input[type="button"] {
   width: 75%;
   background-color: rgb(49, 167, 63);
   color: rgb(227, 232, 230);
-  text-transform: capitalize;
   padding: 10px;
   margin: 8px 0;
   border: none;
@@ -66,5 +66,12 @@ span {
     padding: 0%;
     padding-bottom: 15px;
     text-align: center;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  body {
+    display: grid;
+    grid-template-columns: 300px 1fr;
   }
 }
