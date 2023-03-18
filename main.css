@@ -28,11 +28,11 @@ body {
 .form p {
   font-size: 12px;
   padding: 5%;
+  color: gray;
 }
 .container {
   font-size: 1.3em;
   padding: 0%;
-  text-align: left;
 }
 .container h2 {
   padding-top: 15%;
