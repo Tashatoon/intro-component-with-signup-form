@@ -84,6 +84,9 @@ input[type="button"] {
     display: grid;
     grid-template-columns: 500px 1fr;
   }
+  .container {
+    text-align: left;
+  }
   form {
     width: 70%;
     padding: 0%;
