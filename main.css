@@ -35,7 +35,7 @@ body {
   padding: 0%;
 }
 .container h2 {
-  padding-top: 15%;
+  padding-top: 25%;
   line-height: 100%;
 }
 .container p {
@@ -78,7 +78,7 @@ input[type="button"] {
   }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1025px) {
   body {
     padding: 6%;
     display: grid;
@@ -88,11 +88,13 @@ input[type="button"] {
     text-align: left;
   }
   form {
-    width: 70%;
+    width: 90%;
     padding: 0%;
+    border-radius: 5px;
+    box-shadow: 1px 10px hsl(246, 25%, 77%);
   }
   .form h4 {
-    width: 70%;
+    width: 90%;
     height: 60%;
     padding: 1%;
     text-align: center;
@@ -100,7 +102,7 @@ input[type="button"] {
     color: white;
     background-color: blueviolet;
     border-radius: 5px;
-    box-shadow: 1px 10px #dcd8d8;
+    box-shadow: 1px 10px hsl(246, 25%, 77%);
   }
 
   input[type="text"],
@@ -114,6 +116,6 @@ input[type="button"] {
     width: 90%;
     padding: 20px;
     border-radius: 5px;
-    box-shadow: 1px 10px #dcd8d8;
+    box-shadow: 1px 10px hsl(246, 25%, 77%);
   }
 }
