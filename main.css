@@ -88,13 +88,13 @@ input[type="button"] {
     text-align: left;
   }
   form {
-    width: 90%;
+    width: 60%;
     padding: 0%;
     border-radius: 5px;
     box-shadow: 1px 10px hsl(246, 25%, 77%);
   }
   .form h4 {
-    width: 90%;
+    width: 60%;
     height: 60%;
     padding: 1%;
     text-align: center;
